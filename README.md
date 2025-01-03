@@ -15,19 +15,14 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 import numpy as np
-
-A = np.array([
-    [5, -3, -10],
-    [2, 2, -3],
-    [-3, -1, 5]
-])
-
-B = np.array([-9, 4, -1])
-
-solution = np.linalg.solve(A, B)
-
-x, y, z = solution
-print(soliution)
+A=np.array([
+    [5,-3,-10],
+    [2,2,-3],
+    [-3,-1,5]]
+)
+B=np.array([-9,4,-1])
+soln=np.linalg.solve(A,B)
+print(soln)
 
 
 ## Output:
