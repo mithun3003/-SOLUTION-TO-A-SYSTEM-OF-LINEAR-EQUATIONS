@@ -14,6 +14,7 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```
 import numpy as np
 A=np.array([
     [5,-3,-10],
@@ -23,6 +24,7 @@ A=np.array([
 B=np.array([-9,4,-1])
 soln=np.linalg.solve(A,B)
 print(soln)
+```
 
 
 ## Output:
